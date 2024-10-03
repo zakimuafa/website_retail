@@ -28,13 +28,12 @@
 
     <div class="navbar-nav">
       <a href="#home">Home</a>
-      <a href="#menu">Menu</a>
+      <a href="#menu">layanan</a>
       <a href="#products">Produk</a>
       <a href="#contact">Kontak</a>
       <a href="<?php echo base_url()?>Login" class="button-top">Login</a>
       <a href="<?php echo base_url()?>Login" class="button-top">Register</a>
     </div>
-
     <div class="navbar-extra">
       <a href="#" id="search-button"><i data-feather="search"></i></a>
       <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
@@ -93,7 +92,7 @@
 
   <!-- Menu Section start -->
   <section id="menu" class="menu">
-    <h2><span>Menu</span> Kami</h2>
+    <h2><span>layanan</span> Kami</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, repellendus numquam quam tempora voluptatum.
     </p>
 
@@ -113,21 +112,8 @@
         <h3 class="menu-card-title">- Latte -</h3>
         <p class="menu-card-price">IDR 20K</p>
       </div>
-      <div class="menu-card">
-        <img src="assetsimg/menu/1.jpg" alt="Espresso" class="menu-card-img">
-        <h3 class="menu-card-title">- Espresso -</h3>
-        <p class="menu-card-price">IDR 15K</p>
-      </div>
-      <div class="menu-card">
-        <img src="assets/img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-        <h3 class="menu-card-title">- Espresso -</h3>
-        <p class="menu-card-price">IDR 15K</p>
-      </div>
-      <div class="menu-card">
-        <img src="assetsimg/menu/1.jpg" alt="Espresso" class="menu-card-img">
-        <h3 class="menu-card-title">- Espresso -</h3>
-        <p class="menu-card-price">IDR 15K</p>
-      </div>
+ 
+  
     </div>
   </section>
   <!-- Menu Section end -->
@@ -139,34 +125,34 @@
 
     <div class=" row container service-wrapper">
       <div class="product-card">
-        <div class="product-icons">
-          <a href="#"><i data-feather="shopping-cart"></i></a>
-          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
-        </div>
-        <div class="box-services">
+        <div class="">
                 <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_satu'] ?>" width="219px" alt="First slide">
                 <h3 class="menu-card-title"><?php echo $produk['sub_gambar_satu']?></h3>
                 </div>
-      </div>
-      <div class="product-card">
-        <div class="product-icons">
+                <div class="product-icons">
           <a href="#"><i data-feather="shopping-cart"></i></a>
           <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
+      </div>
+      <div class="product-card">
         <div class="box-services">
                 <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_dua'] ?>" width="200px" alt="First slide">
                     <h3 class="menu-card-title"><?php echo $produk['sub_gambar_dua']?></h3>
                 </div>
-      </div>
-      <div class="product-card">
-        <div class="product-icons">
+                <div class="product-icons">
           <a href="#"><i data-feather="shopping-cart"></i></a>
           <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
+      </div>
+      <div class="product-card">
         <div class="box-services">
          <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_tiga'] ?>" width="160px" alt="First slide">
          <h3 class="menu-card-title"><?php echo $produk['sub_gambar_tiga']?></h3>
          </div>
+         <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
       </div>
     </div>
   </section>
