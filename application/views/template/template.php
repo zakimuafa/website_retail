@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>PT PANDAWA YOGASWARA ABADI TEKNOLOGI</title>
+        <title>GARAGE ZACK</title>
         <link rel="icon" type="image/x-icon" href="assets/img/logo.jpeg">
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- Bootstrap 3.3.2 -->
@@ -70,7 +70,7 @@
                 <div class="pull-right hidden-xs">
                     <b>Version</b> 1.0
                 </div>
-                <strong>Copyright &copy; 2022 DEDY</strong> All rights reserved.
+                <strong>Copyright &copy; Maretha Aulya, Celsy Amelia, Zaki Muafa</strong> All rights reserved.
             </footer>
         </div><!-- ./wrapper -->
         <!-- jQuery 2.1.3 -->
