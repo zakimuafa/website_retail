@@ -15,41 +15,29 @@
                     <form class="form-horizontal" id="submit" enctype="multipart/form-data">
                         <div class="box-body">
                             <div class="row space">
-                                <div class="col-md-2"><label class="control-label" for="id">id</label></div>
+                                <div class="col-md-2"><label class="control-label" for="gambar_produk">Gambar Produk</label></div>
                                 <div class="col-md-10">
-                                    <input type="heading" name="id" id="id" class="form-control" required autocomplete="off">
+                                    <input type="file" name="gambar_produk" id="gambar_produk1" class="form-control" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="judul">Judul</label></div>
+                                <div class="col-md-2"><label class="control-label" for="gambar_produk">Gambar Produk</label></div>
                                 <div class="col-md-10">
-                                    <input type="text" name="judul" id="Judul" class="form-control" required autocomplete="off">
+                                    <input type="file" name="gambar_produk" id="gambar_produk2" class="form-control" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_judul">Sub Judul</label></div>
+                                <div class="col-md-2"><label class="control-label" for="gambar_produk">Gambar Produk</label></div>
                                 <div class="col-md-10">
-                                    <input type="text" name="sub_judul" id="sub_judul" class="form-control" required autocomplete="off">
+                                    <input type="file" name="gambar_produk" id="gambar_produk3" class="form-control" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="gambar_satu">Gambar Satu</label></div>
+                                <div class="col-md-2"><label class="control-label" for="nama_produk">Nama Produk</label></div>
                                 <div class="col-md-10">
-                                    <input type="file" name="gambar_satu" id="gambar_satu" class="form-control" required autocomplete="off">
+                                    <input type="text" name="nama_produk" id="nama_produk" class="form-control" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="gambar_dua">Gambar Dua</label></div>
+                                <div class="col-md-2"><label class="control-label" for="harga">Harga</label></div>
                                 <div class="col-md-10">
-                                    <input type="file" name="gambar_dua" id="gambar_dua" class="form-control" required autocomplete="off">
+                                    <input type="text" name="harga" id="harga" class="form-control" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="gambar_tiga">Gambar Tiga</label></div>
+                                <div class="col-md-2"><label class="control-label" for="keterangan">Keterangan</label></div>
                                 <div class="col-md-10">
-                                    <input type="file" name="gambar_tiga" id="gambar_tiga" class="form-control" required autocomplete="off">
-                                </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_gambar_satu">Sub Gambar Satu</label></div>
-                                <div class="col-md-10">
-                                    <input type="text" name="sub_gambar_satu" id="sub_gambar_satu" class="form-control" required autocomplete="off">
-                                </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_gambar_dua">Sub Gambar Dua</label></div>
-                                <div class="col-md-10">
-                                    <input type="text" name="sub_gambar_dua" id="sub_gambar_dua" class="form-control" required autocomplete="off">
-                                </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_gambar_tiga">Sub Gambar Tiga</label></div>
-                                <div class="col-md-10">
-                                    <input type="text" name="sub_gambar_tiga" id="sub_gambar_tiga" class="form-control" required autocomplete="off">
+                                    <input type="text" name="keterangan" id="keterangan" class="form-control" required autocomplete="off">
                                 </div>
                             </div>
                             
