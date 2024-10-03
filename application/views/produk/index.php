@@ -3,7 +3,7 @@
     <section class="content-header">
         <h1>
             <?php echo $breadcum; ?>
-        </h1>
+        </h1>    
         <ol class="breadcrumb">
             <li><a href="<?php echo base_url()?>Dashboard"><i class="fa fa-gears"></i> Produk</a></li>
             <li class="active"></li>
@@ -20,38 +20,31 @@
                     <div class="box-body">
                         <table class="table table-responsive" id="table1" width="100%">
                             <thead class="primary">
-                                
-                                <th>Judul</th>
-                                <th>Sub Judul</th>
-                                <th>Gambar Satu</th>
-                                <th>Gambar Dua</th>
-                                <th>Gambar Tiga</th>
-                                <th>Sub Gambar Satu</th>
-                                <th>Sub Gambar Dua</th>
-                                <th>Sub Gambar Tiga</th>
-                                <th>status</th>
+                                <th>Gambar Produk</th>
+                                <th>Gambar Produk</th>
+                                <th>Gambar Produk</th>
+                                <th>Nama Produk</th>
+                                <th>Harga</th>
+                                <th>Keterangan</th>
+                                <th>Status</th>
                             </thead>
                             <tbody>
                                 <?php 
                                     $i=1;
                                     foreach ($produk as $prd) { ?>
                                     <tr>
-                                        
-                                        <td><?php echo $prd['judul']; ?></td>
-                                        <td><?php echo $prd['sub_judul']; ?></td>
-                                        <td><img src="<?=base_url('assets/img/produk/'.$prd['gambar_satu'])?>" alt="" width="80px"></td>
-                                        <td><img src="<?=base_url('assets/img/produk/'.$prd['gambar_dua'])?>" alt="" width="80px"></td>
-                                        <td><img src="<?=base_url('assets/img/produk/'.$prd['gambar_tiga'])?>" alt="" width="80px"></td>
-                                        <td><?php echo $prd['sub_gambar_satu']; ?></td>
-                                        <td><?php echo $prd['sub_gambar_dua']; ?></td>
-                                        <td><?php echo $prd['sub_gambar_tiga']; ?></td>
+                                        <td><img src="<?=base_url('assets/img/produk/'.$prd['gambar_produk'])?>" alt="" width="20px"></td>
+                                        <td><img src="<?=base_url('assets/img/produk/'.$prd['gambar_produk'])?>" alt="" width="20px"></td>
+                                        <td><img src="<?=base_url('assets/img/produk/'.$prd['gambar_produk'])?>" alt="" width="20px"></td>
+                                        <td><?php echo $prd['nama_produk']; ?></td>
+                                        <td><?php echo $prd['harga']; ?></td>
+                                        <td><?php echo $prd['keterangan']; ?></td>
                                         <td>
                                             <a href="<?php echo base_url()?>Produk/produk_edit/<?php echo $prd['id']?>" class="btn btn-warning" title="Edit Data"><i class="fa fa-pencil"></i></a>&nbsp;
                                             <a onclick="return confirm('Apakah Anda Yakin Akan Menghapus Data Ini')" href="<?php echo base_url()?>Produk/produk_delete/<?php echo $prd['id']?>" class="btn btn-danger" title="Hapus Data"><i class="fa fa-trash-o"></i></a>
-                                             <?php } ?>  
                                         </td>
                                     </tr>
-                                
+                                <?php } ?>  
                             </tbody>
                         </table>
                     </div>
