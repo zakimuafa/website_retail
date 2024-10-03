@@ -121,23 +121,13 @@
   <!-- Products Section start -->
   <section class="products" id="products">
     <h2><span>Produk Unggulan</span> Kami</h2>
-    <p>Butuh produk yang harganya murah tapi bagus dan awet? Cek produk paling spesial dan Dapatkan diskon menarik hingga 50% untuk semua produk kami!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
 
     <div class=" row container service-wrapper">
       <div class="product-card">
-<<<<<<< HEAD
-        <div class="product-icons">
-          <a href="#"><i data-feather="shopping-cart"></i></a>
-          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
-        </div>
-        <div class="box-services">
-                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_produk'] ?>" width="219px" alt="First slide">
-                <h3 class="menu-card-title"><?php echo $produk['gambar_produk']?></h3>
-=======
         <div class="">
                 <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_satu'] ?>" width="219px" alt="First slide">
                 <h3 class="menu-card-title"><?php echo $produk['sub_gambar_satu']?></h3>
->>>>>>> 41a50a285db5d407fa9bf2298708ef2da13d3040
                 </div>
                 <div class="product-icons">
           <a href="#"><i data-feather="shopping-cart"></i></a>
@@ -146,8 +136,8 @@
       </div>
       <div class="product-card">
         <div class="box-services">
-                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_produk'] ?>" width="200px" alt="First slide">
-                    <h3 class="menu-card-title"><?php echo $produk['gambar_produk']?></h3>
+                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_dua'] ?>" width="200px" alt="First slide">
+                    <h3 class="menu-card-title"><?php echo $produk['sub_gambar_dua']?></h3>
                 </div>
                 <div class="product-icons">
           <a href="#"><i data-feather="shopping-cart"></i></a>
@@ -156,8 +146,8 @@
       </div>
       <div class="product-card">
         <div class="box-services">
-         <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_produk'] ?>" width="160px" alt="First slide">
-         <h3 class="menu-card-title"><?php echo $produk['gambar_produk']?></h3>
+         <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_tiga'] ?>" width="160px" alt="First slide">
+         <h3 class="menu-card-title"><?php echo $produk['sub_gambar_tiga']?></h3>
          </div>
          <div class="product-icons">
           <a href="#"><i data-feather="shopping-cart"></i></a>
@@ -173,7 +163,7 @@
   <!-- Contact Section start -->
   <section id="contact" class="contact">
     <h2><span>Kontak</span> Kami</h2>
-    <p>Info lebih lanjut anda bisa hubungi kontak kami dibawah ini
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, provident.
     </p>
 
     <div class="row">
@@ -216,7 +206,7 @@
     </div>
 
     <div class="credit">
-      <p>Created by <a href="">team 1</a>. | &copy; 2024.</p>
+      <p>Created by <a href="">sandhikagalih</a>. | &copy; 2023.</p>
     </div>
   </footer>
   <!-- Footer end -->
