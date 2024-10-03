@@ -15,46 +15,37 @@
                     <form class="form-horizontal" id="submit" enctype="multipart/form-data">
                         <div class="box-body">
                             <div class="row space">
-                                <div class="col-md-2"><label class="control-label" for="id">id</label></div>
+                                <div class="col-md-2"><label class="control-label" for="nama_produk">Nama Produk</label></div>
                                 <div class="col-md-10">
-                                    <input type="heading" name="id" id="id" class="form-control" value="<?php echo $produk['id']; ?>" required autocomplete="off">
+                                    <input type="text" name="nama_produk" id="nama_produk" class="form-control" value="<?php echo $produk['nama_produk']; ?>" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="judul">Judul</label></div>
+                                <div class="col-md-2"><label class="control-label" for="harga">Harga</label></div>
                                 <div class="col-md-10">
-                                    <input type="text" name="judul" id="judul" class="form-control" value="<?php echo $produk['judul']; ?>" required autocomplete="off">
+                                    <input type="text" name="harga" id="harga" class="form-control" value="<?php echo $produk['harga']; ?>" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_judul">Sub Judul</label></div>
+                                <div class="col-md-2"><label class="control-label" for="keterangan">Keterangan</label></div>
                                 <div class="col-md-10">
-                                    <input type="text" name="sub_judul" id="sub_judul" class="form-control" value="<?php echo $produk['sub_judul']; ?>" required autocomplete="off">
+                                    <input type="text" name="keterangan" id="keterangan" class="form-control" value="<?php echo $produk['keterangan']; ?>" required autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="gambar_satu">Gambar Satu</label></div>
+                            </div>
+
+                            <div class="row space">
+                                <div class="col-md-2"><label class="control-label" for="gambar_produk">Gambar Produk </label></div>
                                 <div class="col-md-10">
-                                    <input type="file" name="gambar_satu" id="gambar_satu" class="form-control" value="<?php echo $produk['gambar_satu']; ?>" autocomplete="off">
+                                    <input type="file" name="gambar_produk" id="gambar_produk" class="form-control" value="<?php echo $produk['gambar_produk']; ?>" autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="gambar_dua">Gambar Dua</label></div>
+                                <div class="col-md-2"><label class="control-label" for="gambar_produk">Gambar Produk </label></div>
                                 <div class="col-md-10">
-                                    <input type="file" name="gambar_dua" id="gambar_dua" class="form-control" value="<?php echo $produk['gambar_dua']; ?>" autocomplete="off">
+                                    <input type="file" name="gambar_produk" id="gambar_produk" class="form-control" value="<?php echo $produk['gambar_produk']; ?>" autocomplete="off">
                                 </div>
-                                <div class="col-md-2"><label class="control-label" for="gambar_tiga">Gambar Tiga</label></div>
+                                <div class="col-md-2"><label class="control-label" for="gambar_produk">Gambar Produk </label></div>
                                 <div class="col-md-10">
-                                    <input type="file" name="gambar_tiga" id="gambar_tiga" class="form-control" value="<?php echo $produk['gambar_tiga']; ?>" autocomplete="off">
-                                </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_gambar_satu">Sub Gambar Satu</label></div>
-                                <div class="col-md-10">
-                                    <input type="text" name="sub_gambar_satu" id="sub_gambar_satu" class="form-control" value="<?php echo $produk['sub_gambar_satu']; ?>" required autocomplete="off">
-                                </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_gambar_dua">Sub Gambar Dua</label></div>
-                                <div class="col-md-10">
-                                    <input type="text" name="sub_gambar_dua" id="sub_gambar_dua" class="form-control" value="<?php echo $produk['sub_gambar_dua']; ?>" required autocomplete="off">
-                                </div>
-                                <div class="col-md-2"><label class="control-label" for="sub_gambar_tiga">Sub Gambar Tiga</label></div>
-                                <div class="col-md-10">
-                                    <input type="text" name="sub_gambar_tiga" id="sub_gambar_tiga" class="form-control" value="<?php echo $produk['sub_gambar_tiga']; ?>" required autocomplete="off">
+                                    <input type="file" name="gambar_produk" id="gambar_produk" class="form-control" value="<?php echo $produk['gambar_produk']; ?>" autocomplete="off">
                                 </div>
                             </div>
                             
                             <div class="row text-center">
-                                <button class="btn btn-success" type="submit"><i class="fa fa-download">&nbsp&nbsp</i>Simpan</button>&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url()?>Produk" class="btn btn-warning"><i class="fa fa-angle-left">&nbsp&nbsp</i>Kembali</a>
+                                <button class="btn btn-success" type="submit"><i class="fa fa-download">&nbsp;&nbsp;</i>Simpan</button>&nbsp;&nbsp;&nbsp;<a href="<?php echo base_url()?>Produk" class="btn btn-warning"><i class="fa fa-angle-left">&nbsp;&nbsp;</i>Kembali</a>
                             </div>
                         </div>
                     </form>
@@ -71,23 +62,21 @@ $(document).ready(function(){
     $('#submit').submit(function(e){
         $(".preloader").fadeIn();
         e.preventDefault(); 
-                $.ajax({
-                    url:'<?php echo base_url();?>Produk/produk_update',
-                    type:"post",
-                    data:new FormData(this),
-                    processData:false,
-                    contentType:false,
-                    cache:false,
-                    async:false,
-                    success: function(data){
-                        console.log(data)
-                        alert("Data Berhasil Disimpan");
-                        $(".preloader").fadeOut();
-                        window.location.replace("<?php echo base_url('Produk/index')?>");
-                    }
-                });
-        
-        
+        $.ajax({
+            url:'<?php echo base_url();?>Produk/produk_update',
+            type:"post",
+            data:new FormData(this),
+            processData:false,
+            contentType:false,
+            cache:false,
+            async:false,
+            success: function(data){
+                console.log(data);
+                alert("Data Berhasil Disimpan");
+                $(".preloader").fadeOut();
+                window.location.replace("<?php echo base_url('Produk/index')?>");
+            }
+        });
     });
-    });
+});
 </script>
