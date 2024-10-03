@@ -135,7 +135,7 @@
   <!-- Products Section start -->
   <section class="products" id="products">
     <h2><span>Produk Unggulan</span> Kami</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
+    <p>Butuh produk yang harganya murah tapi bagus dan awet? Cek produk paling spesial dan Dapatkan diskon menarik hingga 50% untuk semua produk kami!</p>
 
     <div class=" row container service-wrapper">
       <div class="product-card">
@@ -144,8 +144,8 @@
           <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
         <div class="box-services">
-                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_satu'] ?>" width="219px" alt="First slide">
-                <h3 class="menu-card-title"><?php echo $produk['sub_gambar_satu']?></h3>
+                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_produk'] ?>" width="219px" alt="First slide">
+                <h3 class="menu-card-title"><?php echo $produk['gambar_produk']?></h3>
                 </div>
       </div>
       <div class="product-card">
@@ -154,8 +154,8 @@
           <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
         <div class="box-services">
-                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_dua'] ?>" width="200px" alt="First slide">
-                    <h3 class="menu-card-title"><?php echo $produk['sub_gambar_dua']?></h3>
+                <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_produk'] ?>" width="200px" alt="First slide">
+                    <h3 class="menu-card-title"><?php echo $produk['gambar_produk']?></h3>
                 </div>
       </div>
       <div class="product-card">
@@ -164,8 +164,8 @@
           <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
         </div>
         <div class="box-services">
-         <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_tiga'] ?>" width="160px" alt="First slide">
-         <h3 class="menu-card-title"><?php echo $produk['sub_gambar_tiga']?></h3>
+         <img src="<?php echo base_url()?>assets/img/produk/<?php echo $produk['gambar_produk'] ?>" width="160px" alt="First slide">
+         <h3 class="menu-card-title"><?php echo $produk['gambar_produk']?></h3>
          </div>
       </div>
     </div>
@@ -177,7 +177,7 @@
   <!-- Contact Section start -->
   <section id="contact" class="contact">
     <h2><span>Kontak</span> Kami</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, provident.
+    <p>Info lebih lanjut anda bisa hubungi kontak kami dibawah ini
     </p>
 
     <div class="row">
@@ -220,7 +220,7 @@
     </div>
 
     <div class="credit">
-      <p>Created by <a href="">sandhikagalih</a>. | &copy; 2023.</p>
+      <p>Created by <a href="">team 1</a>. | &copy; 2024.</p>
     </div>
   </footer>
   <!-- Footer end -->
