@@ -31,12 +31,12 @@
       <a href="#menu">layanan</a>
       <a href="#products">Produk</a>
       <a href="#contact">Kontak</a>
-      <a href="<?php echo base_url()?>Login" class="button-top">Login</a>
-      <a href="<?php echo base_url()?>Login" class="button-top">Register</a>
+      <a href="P12/index.html" class="button-top">Login</a>
+      <a href="P12/register.html" class="button-top">Register</a>
     </div>
     <div class="navbar-extra">
       <a href="#" id="search-button"><i data-feather="search"></i></a>
-      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="cart.php" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
       <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
     </div>
 
@@ -194,9 +194,7 @@
   <!-- Footer start -->
   <footer>
     <div class="socials">
-      <a href="#"><i data-feather="instagram"></i></a>
-      <a href="#"><i data-feather="twitter"></i></a>
-      <a href="#"><i data-feather="facebook"></i></a>
+      <a href="https://www.instagram.com/zeck.garage?igsh=bjI2MGduc2R2bnp3"><i data-feather="instagram"></i></a>
     </div>
 
     <div class="links">
@@ -206,7 +204,7 @@
     </div>
 
     <div class="credit">
-      <p>Created by <a href="">sandhikagalih</a>. | &copy; 2023.</p>
+      <p>Created by <a href="">wekidi isback</a>. | &copy; 2024.</p>
     </div>
   </footer>
   <!-- Footer end -->
